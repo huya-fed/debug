@@ -1,0 +1,6 @@
+{
+    "repos": "https://github.com/binnng/debug.js",
+    "version": "v1.7.1",
+    "name": "debug",
+    "main": "debug.js"
+}
