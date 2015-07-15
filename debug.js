@@ -172,7 +172,7 @@ var __bind = function(fn, me){ return function(){ return fn.apply(me, arguments)
 	
 	if (typeof exports !== "undefined" && module.exports) {
 		return module.exports = exports = entry;
-	} else if (typeof dwfis.define === "function") {
+	} else if (typeof dwfis !== "undefined" && typeof dwfis.define === "function") {
 		module.exports = entry
 	} else if (typeof angular === "object") {
 		return angular.module("binnng/debug", []).factory("$debug", function() {
